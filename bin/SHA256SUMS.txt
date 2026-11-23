@@ -1,0 +1,2 @@
+40548f0cda0cfdb7808d2d760e86a5520ebc9af81586b3ccdbbf56316e577adf  PassportExport.exe
+7303f5b38617a570ea1da92f5e908ae56a7b338178d9a244c7e41d8d33c693a7  PassportRecorder-esp32c3-8MB.bin

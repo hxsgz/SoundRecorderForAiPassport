@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+set(EXTRA_COMPONENT_DIRS "${CMAKE_CURRENT_LIST_DIR}/../vendor/ai-passport/components/bsp")
+set(COMPONENTS main)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(FoloToy-AI-Passport)
+if(NOT IDF_TARGET STREQUAL "esp32c3" OR NOT IDF_VERSION_MAJOR EQUAL 5 OR NOT IDF_VERSION_MINOR EQUAL 5 OR NOT IDF_VERSION_PATCH EQUAL 3)
+    message(FATAL_ERROR "Use ESP-IDF 5.5.3, target esp32c3")
+endif()

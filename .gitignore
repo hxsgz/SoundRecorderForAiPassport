@@ -1,0 +1,15 @@
+.buildtools/
+**/__pycache__/
+**/.venv/
+firmware/build/
+firmware/managed_components/
+firmware/sdkconfig
+nas/data/
+nas/config/
+nas/models/
+desktop/settings.json
+*.token
+
+/backups/
+/bin/PassportNAS-fnOS.zip
+/nas/

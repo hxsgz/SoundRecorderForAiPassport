@@ -1,0 +1,19 @@
+{
+  "target": "esp32c3",
+  "flash_bytes": 8388608,
+  "idf": "5.5.3",
+  "images": {
+    "bootloader.bin": {
+      "offset": 0,
+      "sha256": "d84a5702b3d5b154eef0ac7bd6a4fc3320fade9bd895c52080f77f617073ed31"
+    },
+    "partitions.bin": {
+      "offset": 32768,
+      "sha256": "d79c16bb1dbc8dff0c620e605045e7491481e2ed61eb66b048900797209b790e"
+    },
+    "app.bin": {
+      "offset": 65536,
+      "sha256": "95005f61e185d334c8c7df79eb07f88fa111d495f6a2cd59fa6492c0ac167f2b"
+    }
+  }
+}
